@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(claude plugin *)",
+      "Bash(ls \"C:/Users/XC/.claude/plugins/marketplaces/claude-plugins-official\" 2>/dev/null || echo \"DIR_NOT_FOUND\")",
+      "Read(//c/Users/XC/.claude/plugins/marketplaces/claude-plugins-official/**)",
+      "Bash(ls \"C:/Users/XC/.claude/plugins/marketplaces/agent-toolkit\" 2>/dev/null || echo \"DIR_NOT_FOUND\")",
+      "Read(//c/Users/XC/.claude/plugins/marketplaces/agent-toolkit/**)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(git *)"
+    ]
+  }
+}
